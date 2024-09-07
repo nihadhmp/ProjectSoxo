@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="index.js"></script>
+    <title>Soxo</title>
+  </head>
+  <body class="w-screen h-screen">
+    <!-- test code -->
+    <header class="font-sans flex items-center justify-center">
+      <nav class="flex items-center justify-between w-[93%] md:w-[86%] h-20">
+        <div>
+          <img src="soxo-logo-nav blue.png" class="h-6 w-20" />
+        </div>
+        <div class="hidden md:block w-1/5 ml-56">
+          <ul class="flex justify-between">
+            <li class="font-bold text-lg hover:text-blue-500">
+              <a href="#">Home</a>
+            </li>
+            <li class="font-bold text-lg hover:text-blue-500">
+              <a href="#">About</a>
+            </li>
+            <li class="font-bold text-lg hover:text-blue-500">
+              <a href="#">Career</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hidden md:block">
+          <button
+            class="rounded-full px-6 py-3 bg-blue-500 text-white font-bold"
+          >
+            Contact
+          </button>
+        </div>
+        <div id="menu-icon" class="md:hidden">
+          <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div id="sidebar" class="hidden">
+      <nav
+        class="bg-gray-900 text-white h-screen absolute top-0 w-3/4 md:hidden flex flex-col justify-between px-6 py-7"
+      >
+        <div>
+          <div class="flex items-center justify-between">
+            <a class="text-3xl font-bold" href="#">Soxo</a>
+            <i
+              id="closs"
+              class="fa-solid fa-circle-xmark fa-2xl py-3"
+              style="color: #3e4042"
+            ></i>
+          </div>
+          <ul>
+            <li class="mt-7 font-bold text-lg">Home</li>
+            <li class="mt-5 font-bold text-lg">About</li>
+            <li class="mt-5 font-bold text-lg">Careers</li>
+          </ul>
+        </div>
+        <div class="flex flex-col justify-center text-lg font-semibold">
+          <a href="#"> hello@soxo.in</a> <span>78 99 205111</span>
+          <section class="mt-5 flex w-3/5 flex-row justify-between">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-dribbble"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </section>
+        </div>
+      </nav>
+    </div>
+
+    <section class="flex items-center justify-center bg-slate-100">
+      <div class="md:flex items-center justify-between w-[93%] md:w-[86%]">
+        <div class="md:w-1/2 md:py-24 py-16">
+          <h1 class="font-bold font-sans text-4xl md:text-6xl text-gray-700">
+            We make your work Faster & Smarter!
+          </h1>
+        </div>
+        <div class="md:w-1/2">
+          <p class="font-sans text-2xl text-gray-500">
+            We streamline businesses by automating your business workflow. Our
+            digital solutions helps to replace your manual work with automation
+            and allot humans to the areas that require manpower.
+          </p>
+          <a
+            href="Learn More"
+            class="text-blue-500 font-sans font-semibold hover:underline"
+            >Learn More -></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="md:flex flex items-center justify-center bg-slate-100 py-24">
+      <img
+        src="Soxo_files/homepage-soxo.jpg "
+        class="rounded-lg w-[93%] md:w-[86%]"
+      />
+    </div>
+
+    <section
+      class="flex justify-center font-semibold font-sans items-center flex-col mb-14 md:mb-0"
+    >
+      <p class="text-blue-500 mt-20 mb-3 md:mt-48 md:mb-5">WHAT WE DO</p>
+      <p
+        class="md:w-2/5 font-semibold md:text-4xl text-3xl text-center text-gray-700"
+      >
+        We master industries and bring best applications to it.
+      </p>
+    </section>
+
+    <section class="flex flex-col md:flex-row justify-center items-center">
+      <img
+        class="rounded-lg md:my-16 md:ml-28 w-[93%] md:w-1/2"
+        src="Soxo_files/homepage1-soxo.jpg"
+      />
+      <div class="w-[93%] md:w-1/2 text-left md:ml-10 md:pr-20">
+        <h2 class="font-bold text-3xl text-gray-700 mb-5 mt-12 md:mb-10">
+          Healthcare Industry
+        </h2>
+        <p class="md:mb-10 text-gray-500 text-lg">
+          Healthcare industry is a complicated sector with multiple internal
+          functions and automation has played an integral part in the
+          technological redesigning of healthcare. We provide you with
+          innovative solutions that improves employee productivity and
+          comprehend patient experience on the same level.
+        </p>
+        <p class="text-gray-500 my-5 text-lg">
+          Our solutions help you move forward while dealing with even the
+          trivial administrative inefficiency.
+        </p>
+        <div class="flex flex-col md:flex-row md:justify-between">
+          <ul class="flex flex-col justify-between text-gray-500 mt-5 text-lg">
+            <li>
+              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              Electronic Health Records.
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              Equipment Intefacing.
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              Accounting and billing.
+            </li>
+          </ul>
+          <ul class="flex flex-col justify-between text-gray-500 text-lg">
+            <li>
+              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              Scheduling and canceling appointments.
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              Inventory management.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-screen flex justify-center items-center">
+      <div
+        class="w-[93%] md:w-[86%] flex justify-center items-center flex-col md:flex-row-reverse"
+      >
+        <img
+          class="rounded-lg mt-24 mb-10"
+          src="Soxo_files/homepage2-soxo.jpg"
+        />
+        <div class="md:w-1/2">
+          <h2 class="font-bold text-3xl text-gray-700 md:mb-10">
+            Process Automation
+          </h2>
+          <p class="text-lg text-gray-500 my-5">
+            Process automation eases down the longer manual tasks, expanding the
+            access and visibility to users. It enhances the process of resource
+            utilization, improves quality of work and shorter time consumption.
+            This narrows down your workflow with clarity and visibility at each
+            step. Further it makes execution fast, smart and simpler. By setting
+            up process automation we ensure the following:
+          </p>
+          <div class="flex flex-col md:flex-row">
+            <ul class="text-lg text-gray-500">
+              <li>
+                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                Accomplish more work with higher levels of efficiency and keep
+                focus on quality of work.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                Consolidated work helps to standardize outcomes.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                Minimizes costs by performing fewer steps than before.
+              </li>
+            </ul>
+            <ul class="text-lg text-gray-500">
+              <li>
+                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                Streamlines the work flow and ensures clarity at each step.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                Rapid solutions with increased reliability and avoids chances of
+                human error.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div
+        class="flex flex-col max-w-screen bg-black items-center justify-center my-20"
+      >
+        <h6 class="font-semibold text-center text-white pt-40">
+          JOIN OUR COMMUNITY
+        </h6>
+        <h2
+          class="md:w-3/5 font-bold text-3xl px-3 md:px-12 md:text-4xl text-center text-white py-10"
+        >
+          We are trusted by clients across the globe. Join them by using our
+          digital solutions and grow your business.
+        </h2>
+        <bottun
+          class="rounded-full bg-white text-black px-6 py-3 font-bold mb-40"
+          >Join Us</bottun
+        >
+      </div>
+    </section>
+
+    <sectinon class="flex flex-col justify-center items-center pb-16">
+      <h6 class="text-blue-500 my-5 font-semibold">COMPANY STRATEGY</h6>
+      <h2
+        class="md:w-2/5 text-3xl md:text-4xl md:px-5 font-bold text-center text-gray-700"
+      >
+        Just sit and relax while we take care of your business needs.
+      </h2>
+    </sectinon>
+
+    <section class="flex flex-col md:flex-row">
+      <div><img class="rounded-lg" src="Soxo_files/homepage3.jpg" /></div>
+      <div>
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-700">
+          Our Working Process
+        </h2>
+      </div>
+    </section>
+  </body>
+</html>
