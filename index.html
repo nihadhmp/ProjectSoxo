@@ -12,10 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script defer src="index.js"></script>
+    <script type="module" defer src="index.js"></script>
     <title>Soxo</title>
   </head>
-  <body class="w-screen h-screen">
+  <body class="">
     <!-- test code -->
     <header class="font-sans flex items-center justify-center">
       <nav class="flex items-center justify-between w-[93%] md:w-[86%] h-20">
@@ -54,7 +54,7 @@
       >
         <div>
           <div class="flex items-center justify-between">
-            <a class="text-3xl font-bold" href="#">Soxo</a>
+            <a class="text-3xl font-bold" href="index.html">Soxo</a>
             <i
               id="closs"
               class="fa-solid fa-circle-xmark fa-2xl py-3"
@@ -68,7 +68,7 @@
           </ul>
         </div>
         <div class="flex flex-col justify-center text-lg font-semibold">
-          <a href="#"> hello@soxo.in</a> <span>78 99 205111</span>
+          <a href="login.html"> hello@soxo.in</a> <span>78 99 205111</span>
           <section class="mt-5 flex w-3/5 flex-row justify-between">
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-facebook"></i>
@@ -143,25 +143,40 @@
         <div class="flex flex-col md:flex-row md:justify-between">
           <ul class="flex flex-col justify-between text-gray-500 mt-5 text-lg">
             <li>
-              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              <i
+                class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                style="color: #63e6be"
+              ></i>
               Electronic Health Records.
             </li>
             <li>
-              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              <i
+                class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                style="color: #63e6be"
+              ></i>
               Equipment Intefacing.
             </li>
             <li>
-              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              <i
+                class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                style="color: #63e6be"
+              ></i>
               Accounting and billing.
             </li>
           </ul>
           <ul class="flex flex-col justify-between text-gray-500 text-lg">
             <li>
-              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              <i
+                class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                style="color: #63e6be"
+              ></i>
               Scheduling and canceling appointments.
             </li>
             <li>
-              <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+              <i
+                class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                style="color: #63e6be"
+              ></i>
               Inventory management.
             </li>
           </ul>
@@ -192,26 +207,41 @@
           <div class="flex flex-col md:flex-row">
             <ul class="text-lg text-gray-500">
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #63e6be"
+                ></i>
                 Accomplish more work with higher levels of efficiency and keep
                 focus on quality of work.
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #63e6be"
+                ></i>
                 Consolidated work helps to standardize outcomes.
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #63e6be"
+                ></i>
                 Minimizes costs by performing fewer steps than before.
               </li>
             </ul>
             <ul class="text-lg text-gray-500">
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #63e6be"
+                ></i>
                 Streamlines the work flow and ensures clarity at each step.
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #7c837e"></i>
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #63e6be"
+                ></i>
                 Rapid solutions with increased reliability and avoids chances of
                 human error.
               </li>
@@ -221,10 +251,8 @@
       </div>
     </section>
 
-    <section>
-      <div
-        class="flex flex-col max-w-screen bg-black items-center justify-center my-20"
-      >
+    <section class="bg-black">
+      <div class="flex flex-col items-center justify-center my-20">
         <h6 class="font-semibold text-center text-white pt-40">
           JOIN OUR COMMUNITY
         </h6>
@@ -241,7 +269,7 @@
       </div>
     </section>
 
-    <sectinon class="flex flex-col justify-center items-center pb-16">
+    <sectinon class="flex flex-col justify-center items-center pb-10">
       <h6 class="text-blue-500 my-5 font-semibold">COMPANY STRATEGY</h6>
       <h2
         class="md:w-2/5 text-3xl md:text-4xl md:px-5 font-bold text-center text-gray-700"
@@ -250,13 +278,199 @@
       </h2>
     </sectinon>
 
-    <section class="flex flex-col md:flex-row">
-      <div><img class="rounded-lg" src="Soxo_files/homepage3.jpg" /></div>
-      <div>
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-700">
+    <section
+      class="flex flex-col md:flex-row justify-center items-center md:mb-40 mb-24 md:w-[86%] w-[93%] mx-auto"
+    >
+      <div class="md:w-1/2 mb-10 mx-3 md:pl- md:pt-16">
+        <img class="rounded-lg" src="Soxo_files/homepage3.jpg" />
+      </div>
+      <div class="md:w-1/2">
+        <h2 class="text-3xl md:text-3xl font-bold ml-4 mb-8 text-gray-700">
           Our Working Process
         </h2>
+        <span class="flex">
+          <div
+            class="flex flex-col justify-between items-center pb-20 pt-2 px-5 md:pb-12 md:pt-16 md:pl-20"
+          >
+            <i
+              class="fa-solid fa-1 bg-slate-300 rounded-full py-3 px-4"
+              style="color: #0091ff"
+            ></i>
+            <i
+              class="fa-solid fa-2 bg-slate-300 rounded-full py-3 px-4"
+              style="color: #0091ff"
+            ></i>
+            <i
+              class="fa-solid fa-3 bg-slate-300 rounded-full py-3 px-4"
+              style="color: #0091ff"
+            ></i>
+            <i
+              class="fa-solid fa-4 bg-slate-300 rounded-full py-3 px-4"
+              style="color: #0091ff"
+            ></i>
+            <i
+              class="fa-solid fa-5 bg-slate-300 rounded-full py-3 px-4"
+              style="color: #0091ff"
+            ></i>
+          </div>
+          <div class="md:ml-10 md:mt-12 md:w-1/2">
+            <h6 class="font-bold text-xl text-gray-700 py-3">
+              Breathe the Idea
+            </h6>
+            <p class="md:text-md text-lg pr-3 text-gray-500">
+              Recognize the workability and identify tasks that need to be
+              automated. Identify and allocate tasks based on input and
+              feedback.
+            </p>
+            <h6 class="font-bold text-xl text-gray-700 py-3">Visualize</h6>
+            <p class="md:text-md text-lg pr-3 text-gray-500">
+              Customize the design framework aligned to the business goals and
+              create an automation procedure.
+            </p>
+            <h6 class="font-bold text-xl text-gray-700 py-3">Build</h6>
+            <p class="md:text-md text-lg pr-3 text-gray-500">
+              Develop the software as per the design framework, following a
+              series of testing procedures, keeping a check on potential flaws
+              and gaps.
+            </p>
+            <h6 class="font-bold text-xl text-gray-700 py-3">Action</h6>
+            <p class="md:text-md text-lg pr-3 text-gray-500">
+              Execute the framework, keeping accurate checks on test content,
+              running it through various practical angles.
+            </p>
+            <h6 class="font-bold text-xl text-gray-700 py-3">QA</h6>
+            <p class="md:text-md text-lg pr-3 text-gray-500">
+              Examine the areas that have issues. This is followed by deciding
+              to employ additional attempts if required.
+            </p>
+          </div>
+        </span>
       </div>
     </section>
+
+    <section class="md:w-screen">
+      <span
+        class="flex md:flex-row flex-col-reverse justify-center items-center"
+      >
+        <div class="md:w-1/2 md:pl-32 md:pr-10">
+          <h2 class="font-bold text-2xl md:text-3xl text-gray-700 md:mb-8 px-3">
+            Why Choose Us?
+          </h2>
+          <p class="md:text-md text-lg text-gray-500 md:mb-8 text-left px-3">
+            With the rapid advancements in automation, we offer process
+            management solutions for all industries from macro to micro level.
+            Rooted with deep expertise in the field of healthcare, automobile
+            and financial industries, we offer simple solutions that are
+            customized to your specific needs.
+          </p>
+          <p class="md:text-md text-lg text-gray-500 md:mb-8 text-left px-3">
+            Equipped with out-of-box features and customisable solutions, we
+            help our clients to achieve their goals more easily. Our main aim is
+            to improve the quality of work in an organization, without reducing
+            the amount of work.
+          </p>
+          <span class="flex flex-col md:flex-row px-3">
+            <div>
+              <h6 class="text-lg font-bold text-gray-500">
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #0062ff"
+                ></i
+                >Design
+              </h6>
+              <p class="text-lg text-gray-500">
+                We offer excellent and customized templates for businesses,
+                based on their requirements. Our automation software is custom
+                developed to resolve the problems through digital solutions that
+                our clients face during their challenges.
+              </p>
+              <h6 class="text-lg font-bold text-gray-500 mt-10">
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #0062ff"
+                ></i
+                >Expertise
+              </h6>
+              <p class="text-lg text-gray-500">
+                Having a great expertise in the field of automation, we deliver
+                quality services to our clients that align their business goals
+                without any troubles. Equipped with an exceptionally talented
+                team of developers, we learn, relearn and our ideas together
+                with our clients.
+              </p>
+            </div>
+            <div class="md:ml-10">
+              <h6 class="text-lg font-bold text-gray-500 mt-10">
+                <i
+                  class="fa-solid fa-check py-2 px-1 rounded-full bg-slate-200 fa-2xs mr-2"
+                  style="color: #0062ff"
+                ></i>
+                Quick Customer Support
+              </h6>
+              <p class="text-lg text-gray-500">
+                We provide fast and excellent support to our client queries
+                without any delays. Our best in class customer support resolves
+                all their issues more effectively, making us outstanding among
+                others in the industry.
+              </p>
+            </div>
+          </span>
+        </div>
+        <div class="md:w-1/2 md:pt-20 px-3">
+          <img class="rounded-lg my-18" src="Soxo_files/homepage4.jpg" />
+        </div>
+      </span>
+    </section>
+
+    <footer class="max-w-full bg-[#343f52] md:mt-40 mt-28 px-3 pb-20 md:p-10">
+      <section class="md:px-28">
+        <span class="py-20">
+          <h2 class="text-3xl md:text-4xl pt-20 font-bold text-white">
+            Lets automate your business together.
+          </h2>
+          <p
+            class="text-lg font-semibold text-gray-300 pt-10 md:pt-0 pb-16 md:pb-16"
+          >
+            We focus on making your workflow smart, simple, and error-free using
+            automation.
+          </p>
+          <hr class="border-[0.5px]"
+        /></span>
+        <section class="flex flex-col md:flex-row md:w-2/3">
+          <div class="mt-16 mb-4 w-1/3 md:pr-36">
+            <img class="w-24 mb-4" src="Soxo_files/soxo-logo-white.png" />
+            <p class="text-gray-300 text-lg">
+              © 2024 Soxo.All rights reserved.
+            </p>
+          </div>
+          <div class="mt-14 md:w-1/3 md:pr-20">
+            <h6 class="text-white font-bold text-2xl">Get in Touch</h6>
+            <p class="text-gray-300 text-lg my-5">
+              B1, Sahya, Cyberpark, 167/A, G A College P O, Kozhikode - 673014,
+              Kerala, India
+            </p>
+            <a href="login.html" class="text-gray-300 text-lg">hello@soxo.in</a>
+            <p class="text-gray-300 text-lg">8089224005</p>
+          </div>
+          <div class="mt-14 md:w-1/3">
+            <h6 class="text-white font-bold text-2xl mb-5">Learn More</h6>
+            <ul class="text-gray-300">
+              <li class="text-lg hover:text-blue-500">
+                <a href="#">Home</a>
+              </li>
+              <li class="text-lg hover:text-blue-500">
+                <a href="#">About</a>
+              </li>
+              <li class="text-lg hover:text-blue-500">
+                <a href="#">Career</a>
+              </li>
+              <li class="text-lg hover:text-blue-500">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </footer>
   </body>
 </html>
